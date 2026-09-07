@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "system": "BASELINE",
+    "n_samples": 2000,
+    "mean_minutes": 182.15871078648334,
+    "median_minutes": 181.73987053333332,
+    "p90_minutes": 224.48695333833334,
+    "std_minutes": 32.13232945992806,
+    "min_minutes": 98.84710456666667,
+    "max_minutes": 270.6438228
+  },
+  "prototype": {
+    "system": "PROTOTYPE",
+    "n_samples": 2000,
+    "mean_minutes": 93.6458089146,
+    "median_minutes": 93.35576368333334,
+    "p90_minutes": 121.482152675,
+    "std_minutes": 20.12952525965745,
+    "min_minutes": 45.154783116666664,
+    "max_minutes": 142.9093575
+  },
+  "mean_improvement_minutes": 88.51290187188334,
+  "percentage_improvement": 48.59108932519478,
+  "state_resolution_check": {
+    "note": "Every sample is confirmed to resolve to BED_READY via the real determine_readiness_state() function shipped in the app.",
+    "samples_not_resolved_to_bed_ready": 0
+  },
+  "methodology": "Paired synthetic simulation: identical exit/cleaning durations drawn per case for both conditions; only the visibility-dependent notice delay and bed-confirmation lag differ between BASELINE and PROTOTYPE. Outcomes are confirmed by calling the app's actual determine_readiness_state() and get_freshness_status() functions, not a separately re-derived formula."
+}
