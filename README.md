@@ -37,7 +37,7 @@
 | ML pipeline (Random Forest + XGBoost) | ✅ Trained, R² = 0.885 |
 | Baseline experiment (2,000 samples) | ✅ Complete |
 | Prototype experiment (2,000 samples) | ✅ Complete |
-| Improvement result | ✅ **52.94%** (target was ≥ 20%) |
+| Improvement result | ✅ **48.59%** (target was ≥ 20%) |
 | Automated tests | ✅ **11/11 passing** |
 | Documentation (9 docs) | ✅ Complete |
 | Stakeholder validation sessions | ⏳ Pending |
@@ -448,10 +448,10 @@ python app/ml/train.py
 
 | Metric | Baseline | Prototype |
 |--------|----------|-----------|
-| Mean turnover time | 163.29 min | 76.85 min |
+| Mean turnover time | 182.16 min → 93.65 min |
 | Median | 162.88 min | 76.66 min |
 | P90 | 205.26 min | 105.61 min |
-| **Improvement** | — | **86.44 min saved (52.94%)** |
+| **Improvement** | — | **88.51 min saved (48.59%)** |
 | Configured target | — | ≥ 20% |
 | **Target achieved** | — | ✅ **Yes** |
 
@@ -535,7 +535,7 @@ See [`docs/safety_and_limitations.md`](docs/safety_and_limitations.md) for the f
 - Operational alerts and audit logging
 - Failure scenario simulator — 6 injectable scenarios
 - ML prediction pipeline — Random Forest + XGBoost (R² = 0.885)
-- Baseline and prototype experiments — 2,000 samples each, 52.94% improvement
+- Baseline and prototype experiments — 2,000 samples each, 48.59% improvement
 - Synthetic data generation — 500 patients, 230 beds, 995+ events
 - Automated test suite — 11/11 tests passing
 - Project documentation — 9 documents
