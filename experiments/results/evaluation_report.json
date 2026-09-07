@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "system": "BASELINE",
+    "n_samples": 2000,
+    "mean_minutes": 163.2873429428469,
+    "median_minutes": 162.87732583030447,
+    "p90_minutes": 205.26373924284252,
+    "std_minutes": 31.794884769230716,
+    "min_minutes": 80.73042066042579,
+    "max_minutes": 247.3361630720288
+  },
+  "prototype": {
+    "system": "PROTOTYPE",
+    "n_samples": 2000,
+    "mean_minutes": 76.8471301933539,
+    "median_minutes": 76.66029313667137,
+    "p90_minutes": 105.60858799509003,
+    "std_minutes": 21.577147733811888,
+    "min_minutes": 16.745802069647567,
+    "max_minutes": 132.39809363716407
+  },
+  "absolute_improvement_mean": 86.44021274949299,
+  "percentage_improvement": 52.93748504423176,
+  "target_percentage": 20.0,
+  "target_achieved": true,
+  "target_assessment": "TARGET ACHIEVED",
+  "median_improvement": 86.2170326936331,
+  "p90_improvement": 99.65515124775249,
+  "evaluated_at": "2026-09-04T19:48:53.151893"
+}

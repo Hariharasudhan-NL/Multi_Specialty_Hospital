@@ -1,0 +1,25 @@
+metric,value
+baseline_system,BASELINE
+baseline_n_samples,2000
+baseline_mean_minutes,163.2873429428469
+baseline_median_minutes,162.87732583030447
+baseline_p90_minutes,205.26373924284252
+baseline_std_minutes,31.794884769230716
+baseline_min_minutes,80.73042066042579
+baseline_max_minutes,247.3361630720288
+prototype_system,PROTOTYPE
+prototype_n_samples,2000
+prototype_mean_minutes,76.8471301933539
+prototype_median_minutes,76.66029313667137
+prototype_p90_minutes,105.60858799509003
+prototype_std_minutes,21.577147733811888
+prototype_min_minutes,16.745802069647567
+prototype_max_minutes,132.39809363716407
+absolute_improvement_mean,86.44021274949299
+percentage_improvement,52.93748504423176
+target_percentage,20.0
+target_achieved,True
+target_assessment,TARGET ACHIEVED
+median_improvement,86.2170326936331
+p90_improvement,99.65515124775249
+evaluated_at,2026-09-04T19:48:53.151893

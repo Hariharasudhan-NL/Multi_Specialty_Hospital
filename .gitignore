@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.env
+!.env.example
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ML models (binary, generated — re-train with app/ml/train.py)
+backend/app/ml/models/*.joblib
+backend/app/ml/models/*.pkl
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Compiled Vite config output
+frontend/vite.config.d.ts
+frontend/vite.config.js
+dist/
+.pnp
+.pnp.js
+.yarn/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temp / test artefacts
+test_api.py
